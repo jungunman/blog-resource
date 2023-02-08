@@ -1,0 +1,6 @@
+:root {
+  --login-border-color: 1px solid rgba(0, 0, 0, 0.5);
+  --login-bg-color: rgba(0, 0, 0, 0.1);
+  --login-font-color-no-active: rgba(0, 0, 0, 0.3);
+  --login-font-color-active: black;
+}
