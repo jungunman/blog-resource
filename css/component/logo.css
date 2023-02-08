@@ -1,6 +1,13 @@
 .logo-header {
   font-size: 50px;
   font-weight: 600;
-  color: green;
+  color: var(--main-color);
+  text-transform: uppercase;
+}
+
+.logo-footer {
+  font-size: 20px;
+  font-weight: bolder;
+  color: var(--main-color);
   text-transform: uppercase;
 }

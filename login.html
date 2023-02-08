@@ -25,10 +25,10 @@
 
     <main>
       <div class="login-form">
-        <!-- <span class="badge__login"
+        <span class="badge__login"
           >pc방 등 공용pc라면 QR코드 로그인이 더 안전해요!
           <button class="badge__close">X</button></span
-        > -->
+        >
         <ul class="login-menu">
           <li class="login-menu__list">
             <a href="#" class="login-menu__link on"> ID로그인</a>
@@ -42,28 +42,29 @@
         </ul>
         <div class="login-form__area">
           <form action="get" class="login-form__information">
-            <input type="input" class="login-form__id" placeholder="아이디" />
-            <input
-              type="password"
-              class="login-form__pwd"
-              placeholder="비밀번호"
-            />
-            <div class="login-form__option">
-              <span>로그인 상태 유지</span>
-              <span>IP보안</span>
-              <div class="option-btn">
-                <!--버튼 만들기-->
-                <div class="option-btn__active"></div>
+            <input type="input" placeholder="아이디" />
+            <input type="password" placeholder="비밀번호" />
+            <div class="option__row">
+              <div class="option__column">
+                <div class="option__login-actived">✔</div>
+                <span>로그인 상태 유지</span>
               </div>
-              <input type="submit" value="로그인" class="login-form__submit" />
+              <div class="option__column">
+                <span>IP보안</span>
+                <!--버튼 만들기-->
+                <div class="option-btn">
+                  <div class="badge__option-btn"></div>
+                </div>
+              </div>
             </div>
+            <input type="submit" value="로그인" class="login-form__submit" />
           </form>
-          <ul class="information-form">
-            <li class="information-form__li">비밀번호 찾기</li>
-            <li class="information-form__li">아이디 찾기</li>
-            <li class="information-form__li">회원가입</li>
-          </ul>
         </div>
+        <ul class="information-form">
+          <li class="information-form__list">비밀번호 찾기</li>
+          <li class="information-form__list">아이디 찾기</li>
+          <li class="information-form__list">회원가입</li>
+        </ul>
       </div>
     </main>
 
@@ -74,7 +75,9 @@
 
       <ul class="footer-information">
         <li class="footer-information__li">이용약관</li>
-        <li class="footer-information__li">개인정보처리방침</li>
+        <li class="footer-information__li">
+          <strong>개인정보처리방침</strong>
+        </li>
         <li class="footer-information__li">책임의 한계와 법적고지</li>
         <li class="footer-information__li">회원정보 고객센터</li>
       </ul>
