@@ -91,6 +91,7 @@
 }
 
 .login-form__information input {
+  position: relative;
   width: 100%;
   height: 50px;
   padding-left: 30px;
@@ -98,12 +99,19 @@
   border: var(--login-border-color);
   border-radius: 10px;
   box-sizing: border-box;
+  transition: all 0.2s ease-in-out;
+}
+
+.login-form__information input:focus {
+  color: var(--main-color);
+  outline: 1px solid var(--main-color);
+  z-index: 5;
 }
 
 .login-form__information input:first-child {
   border-bottom-left-radius: 0px;
   border-bottom-right-radius: 0px;
-  border-bottom: none;
+  margin-bottom: -1px;
 }
 
 .login-form__information input:nth-child(2) {

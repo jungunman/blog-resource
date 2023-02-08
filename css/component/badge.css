@@ -24,3 +24,14 @@
   background-color: rgba(46, 139, 87, 0.1);
   color: rgb(46, 139, 87);
 }
+
+.badge__option-btn {
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  border: none;
+  border-radius: 10px;
+  background-color: white;
+  top: 2px;
+  right: 2px;
+}
